@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "سنقوم بالرد على رسالتك في أقرب فرصة ممكنة بإذن الله. 🌹";
 
       // فتح رابط واتساب
-      const whatsappURL = "https://wa.me/966541665025?text=" + fullMessage;
+      const whatsappURL = "https://wa.me/966596533265?text=" + fullMessage;
       window.open(whatsappURL, "_blank");
 
       // إظهار رسالة النجاح
@@ -160,7 +160,7 @@ document.addEventListener('DOMContentLoaded', function() {
       button.disabled = false;
 
       // فتح رابط واتساب
-      const whatsappURL = "https://wa.me/966541665025?text=" + fullMessage;
+      const whatsappURL = "https://wa.me/966596533265?text=" + fullMessage;
       window.open(whatsappURL, "_blank");
 
       // إظهار رسالة النجاح مع تأثير حركي
