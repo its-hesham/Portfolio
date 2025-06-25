@@ -1814,6 +1814,39 @@ img {
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-radius: 50px;
-}.page-header {
-    margin: 8rem 0 0 0;
+}
+
+.page-header {
+  margin: 8rem 0 0 0;
+}
+
+
+
+
+
+
+
+
+.priceAndSend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 7px;
+}
+
+.priceAndSend span {
+  border: 1px solid #8A7DDB;
+  padding: 12px 25px;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 50px;
+  box-shadow: 0 10px 20px rgba(var(--primary-rgb), 0.3);
+  background: #8A7DDB;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.priceAndSend span:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 30px rgba(var(--primary-rgb), 0.4);
 }
